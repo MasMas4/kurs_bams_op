@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Ma(ka)renkov'; /* Имя семейства шрифтов */
+    src: url('fonts/Font Ma(ka)renkov.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+@font-face {
+    font-family: 'TT Travels Regular'; /* Имя семейства шрифтов */
+    src: url('fonts/TT-Travels.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'TT Travels Light'; /* Имя семейства шрифтов */
+    src: url('fonts/TTTravels-Light.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'Nuqun'; /* Имя семейства шрифтов */
+    src: url('fonts/Nuqun-Regular.otf') format('opentype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+.end{
+    margin-top: -300px;
+    height: 610px;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: "Ma(ka)renkov", sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.25em;
+    color: #3F4B7F;
+    text-align: center;
+    margin-left: 200px; /* Значение увеличено для заметного смещения */
+    margin-top: 200px; /* Значение увеличено для заметного смещения */
+}
+.h2{
+    font-family: "Ma(ka)renkov", sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.25em;
+    color: #3F4B7F;
+    text-align: center;
+    margin-left: 50%;
+}

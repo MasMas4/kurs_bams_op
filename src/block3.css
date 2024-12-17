@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Ma(ka)renkov'; /* Имя семейства шрифтов */
+    src: url('fonts/Font Ma(ka)renkov.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'TT Travels Regular'; /* Имя семейства шрифтов */
+    src: url('fonts/TT-Travels.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'TT Travels Light'; /* Имя семейства шрифтов */
+    src: url('fonts/TTTravels-Light.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'Nuqun'; /* Имя семейства шрифтов */
+    src: url('fonts/Nuqun-Regular.otf') format('opentype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+h5 {
+    font-size: 64px;
+    color: #3F4B7F;
+    text-align: center;
+    padding: 25px 0;
+    font-family: "Ma(ka)renkov", sans-serif;
+    letter-spacing: 0.28em;
+    margin-top: -135px;
+    margin-left: 6%;
+    -webkit-text-stroke-width: 2px; /* Толщина контура */
+    -webkit-text-stroke-color: #3F4B7F; /* Цвет контура */
+}
+
+.block3{
+    background-image: url('image/fon.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.rec {
+    position: relative;
+    width: 547px;
+    height: 289px;
+    background-color: #C1C4E3;
+    border-radius: 20px; /* Закругленные углы */
+    margin-left: 13%;
+    margin-top: -70px;
+    transform-origin: 100% 100%; /* Устанавливаем точку начала трансформации */
+    transition: transform 0.3s ease-in-out;
+    background-image: url('image/time.png'); /* Путь к изображению */
+    background-repeat: no-repeat; /* Изображение не повторяется */
+    background-position: right top; /* Картинка в правом верхнем углу */
+    background-size: 180px ;
+
+}
+.rec:hover {
+    transform: scale(1.1); /* Увеличение размера при наведении */
+}
+.rec p1 {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-family: 'Nuqun', sans-serif;
+    color: #3F4B7F;
+    font-size: 48px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #3F4B7F;
+    letter-spacing: 0.11em;
+}
+.rec h6{
+    text-align: left;
+    position: absolute;
+    top: 65px;
+    left: 30px;
+    font-family: 'TT Travels Light', sans-serif;
+    color: #3F4B7F;
+    font-size: 28px;
+    width: 350px;
+}
+
+.rec1 {
+    position: relative;
+    width: 547px;
+    height: 289px;
+    background-color: #C1C4E3;
+    border-radius: 20px; /* Закругленные углы */
+    margin-left: 51%;
+    margin-top: -290px;
+    transform-origin: 0% 100%; /* Устанавливаем точку начала трансформации */
+    transition: transform 0.3s ease-in-out;
+    background-image: url('image/act.png'); /* Путь к изображению */
+    background-repeat: no-repeat; /* Изображение не повторяется */
+    background-position: right top; /* Картинка в правом верхнем углу */
+    background-size: 130px ;
+}
+.rec1:hover {
+    transform: scale(1.1); /* Увеличение размера при наведении */
+}
+.rec1 p2 {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-family: 'Nuqun', sans-serif;
+    color: #3F4B7F;
+    font-size: 48px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #3F4B7F;
+    letter-spacing: 0.11em;
+}
+.rec1 h7 {
+    text-align: left;
+    position: absolute;
+    top: 132px;
+    left: 30px;
+    font-family: 'TT Travels Regular', sans-serif;
+    color: #3F4B7F;
+    font-size: 28px;
+    width: 350px;
+}
+
+.rec2 {
+    position: relative;
+    width: 547px;
+    height: 289px;
+    background-color: #C1C4E3;
+    border-radius: 20px; /* Закругленные углы */
+    margin-left: 13%;
+    margin-top: 20px;
+    transform-origin: 100% 0%; /* Устанавливаем точку начала трансформации */
+    transition: transform 0.3s ease-in-out;
+    background-image: url('image/ad.png'); /* Путь к изображению */
+    background-repeat: no-repeat; /* Изображение не повторяется */
+    background-position: right top; /* Картинка в правом верхнем углу */
+    background-size: 170px ;
+
+}
+.rec2:hover {
+    transform: scale(1.1); /* Увеличение размера при наведении */
+}
+.rec2 p3 {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-family: 'Nuqun', sans-serif;
+    color: #3F4B7F;
+    font-size: 48px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #3F4B7F;
+    letter-spacing: 0.11em;
+}
+.rec2 h8{
+    text-align: left;
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    font-family: 'TT Travels Regular', sans-serif;
+    color: #3F4B7F;
+    font-size: 28px;
+    width: 350px;
+}
+.rec3 {
+    position: relative;
+    width: 547px;
+    height: 289px;
+    background-color: #C1C4E3;
+    border-radius: 20px; /* Закругленные углы */
+    margin-left: 51%;
+    margin-top: -290px;
+    transform-origin: 0% 0%; /* Устанавливаем точку начала трансформации */
+    transition: transform 0.3s ease-in-out;
+    background-image: url('image/rez.png'); /* Путь к изображению */
+    background-repeat: no-repeat; /* Изображение не повторяется */
+    background-position: right top; /* Картинка в правом верхнем углу */
+    background-size: 170px ;
+}
+.rec3:hover {
+    transform: scale(1.1); /* Увеличение размера при наведении */
+}
+.rec3 p4 {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-family: 'Nuqun', sans-serif;
+    color: #3F4B7F;
+    font-size: 48px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #3F4B7F;
+    letter-spacing: 0.11em;
+}
+.rec3 h9 {
+    text-align: left;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    font-family: 'TT Travels rEGULAR', sans-serif;
+    color: #3F4B7F;
+    font-size: 28px;
+    width: 390px;
+}

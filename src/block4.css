@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Ma(ka)renkov'; /* Имя семейства шрифтов */
+    src: url('fonts/Font Ma(ka)renkov.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'TT Travels Regular'; /* Имя семейства шрифтов */
+    src: url('fonts/TT-Travels.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'TT Travels Light'; /* Имя семейства шрифтов */
+    src: url('fonts/TTTravels-Light.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'Nuqun'; /* Имя семейства шрифтов */
+    src: url('fonts/Nuqun-Regular.otf') format('opentype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+.works{
+    margin-top: 130px;
+    height: 1450px;
+    overflow: hidden;
+    }
+
+.works h1 {
+    position: relative;
+    font-size: 85px;
+    color: #945C65;
+    text-align: center;
+    font-family: "Ma(ka)renkov", sans-serif;
+    letter-spacing: 0.25em;
+    margin-left: 100px;
+    top: 80px;
+    max-width: 400px; /* Ограничиваем максимальную ширину заголовка */
+    word-wrap: break-word; /* Разрешаем перенос слов */
+    overflow: hidden; /* Скрываем текст, который выходит за пределы высоты */
+    -webkit-text-stroke-width: 1px; /* Толщина контура */
+    -webkit-text-stroke-color: #945C65; /* Цвет контура */
+}
+
+.ss {
+    position: absolute;
+    margin-top: 1% ;
+    margin-left: 45px;
+    width: 420px;
+    height: 794px;
+    left: 40px;
+}
+.avrora {
+    position: absolute;
+    margin-top: -11% ;
+    margin-left: 555px;
+    width: 377px;
+    height: 975px;
+}
+
+.post1 {
+    position: absolute;
+    margin-top: -18% ;
+    margin-left: 985px;
+    width: 435px;
+    height: 664px;
+    border-radius: 10px;
+}
+
+.post2 {
+    position: absolute;
+    margin-top: 29% ;
+    margin-left: 985px;
+    width: 453px;
+    height: 649px;
+    border-radius: 10px;
+}
+.post3 {
+    position: absolute;
+    margin-top: 58% ;
+    width: 847px;
+    height: 212px;
+    border-radius: 10px;
+}

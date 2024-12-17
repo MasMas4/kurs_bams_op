@@ -1,0 +1,290 @@
+@font-face {
+    font-family: 'Ma(ka)renkov'; /* Имя семейства шрифтов */
+    src: url('fonts/Font Ma(ka)renkov.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'TT Travels Regular'; /* Имя семейства шрифтов */
+    src: url('fonts/TT-Travels.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'TT Travels Light'; /* Имя семейства шрифтов */
+    src: url('fonts/TTTravels-Light.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'Nuqun'; /* Имя семейства шрифтов */
+    src: url('fonts/Nuqun-Regular.otf') format('opentype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+root {
+    background:  #FFFCF7;
+    width: 100%;
+}
+
+.gradient1::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 745px;
+    background: linear-gradient(to bottom, #E3B7AA, #FFFCF7);
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440vw;
+    padding: 20px;
+}
+
+h {
+    font-size: 25px;
+    color: #3F4B7F;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: -1em;
+    font-family: "Ma(ka)renkov", sans-serif;
+    letter-spacing: 0.4em;
+    -webkit-text-stroke-width: 2px; /* Толщина контура */
+    -webkit-text-stroke-color: #3F4B7F; /* Цвет контура */
+    margin-left: 29%;
+}
+
+.dropdown {
+    background-image: url('image/Star.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px 10px; /* Уменьшение размера изображения */
+    margin-left: 20px;
+    width: 56px;
+    height: 56px;
+    margin-top: 1em;
+    border-radius: 15px; /* Скругление углов */
+    background-color: #3F4B7F;
+    cursor: pointer;
+    position: relative;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    border: none;
+    outline: none;
+}
+
+/* Кнопка выпадающего списка */
+.dropbtn {
+    background-image: url('image/Star.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #3F4B7F;
+    width: 56px;
+    height: 56px;
+    color: #C1C4E3;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+/* Скрытый контент меню до активации */
+/* Стили для выпадающего меню */
+.dropdown-content {
+    background-image: url('image/Star3.png');
+    background-repeat: no-repeat;
+    display: none;
+    position: absolute;
+    background-color: #3F4B7F;
+    width: 320px;
+    height: 566px;
+    z-index: 1;
+    background-position: center calc(20px);
+    background-size: 65px 65px;
+    padding-top: 100px;
+    border-radius: 0 15px 15px 15px;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+    font-family: 'Nuqun', sans-serif;
+    font-size: 40px;
+    color: #C1C4E3;
+    padding: 20px 0px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%; /* Для выравнивания по ширине */
+}
+
+/* Убираем маркеры у списка, если они есть */
+.dropdown-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {background-color: #525E92;}
+
+/* Показать выпадающее меню при наведении курсора */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+.dropdown:hover .dropbtn {
+    border-radius: 15px 15px 0 0;
+}
+
+.up {
+    display: flex;
+    gap: 12px;
+    padding-left: 88%; /* Уменьшите значение, если блоки съехали слишком далеко вправо */
+    margin-right: 20px; /* Уменьшите значение, если блоки съехали слишком близко к правому краю */
+    margin-top: -2em;
+    justify-content: flex-start; /* Блоки будут начинаться слева */
+    align-items: center; /* Центрирует блоки вертикально */
+}
+
+.wk, .tg, .mail {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #3F4B7F;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.wk:hover, .tg:hover, .mail:hover {
+    background-color: #C1C4E3;
+}
+
+/* Шейпы для иконок */
+.wk::before {
+    content: "";
+    background-image: url("image/vk.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+.tg::before {
+    content: "";
+    background-image: url("image/tg.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+.mail::before {
+    content: "";
+    background-image: url("image/mail.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+/* При наведении */
+.wk:hover, .tg:hover, .mail:hover {
+    background-color: #C1C4E3;
+}
+
+.outline-text {
+    font-size: 240px;
+    color: #3F4B7F;
+    text-align: center;
+    font-family: "Ma(ka)renkov", sans-serif;
+    letter-spacing: 0.2em;
+    -webkit-text-stroke-width: 11px;
+    -webkit-text-stroke-color: #3F4B7F;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Стили для изображения */
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 35%; /* Центрирование контейнера по горизонтали */
+}
+
+/* Обновленные стили для текста */
+.outline-text {
+    position: absolute;
+    top: 50%; /* Центрирование по вертикали */
+    left: 65%; /* Центрирование по горизонтали */
+    transform: translate(-50%, -50%); /* Смещение для точного центрирования */
+    font-size: 300px;
+    color: #3F4B7F;
+    text-align: center;
+    font-family: "Ma(ka)renkov", sans-serif;
+    letter-spacing: 0.26em;
+    -webkit-text-stroke-width: 11px;
+    -webkit-text-stroke-color: #3F4B7F;
+    z-index: 1; /* Гарантируем, что текст будет выше изображения */
+}
+.outline-text-behind {
+    position: absolute;
+    top: 5%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 300px; /* Изменяйте размер шрифта по желанию */
+    color: rgba(63, 75, 127, 0.5);
+    font-family: "Ma(ka)renkov", sans-serif;
+    letter-spacing: 0.26em;
+    -webkit-text-stroke-width: 11px; /* Толщина контура */
+    -webkit-text-stroke-color: rgba(63, 75, 127, 0.5); /* Цвет контура */
+    text-align: center;
+    z-index: -1; /* Помещаем текст за изображение */
+}
+.outline-text-behind2 {
+    position: absolute;
+    top: -45%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 300px; /* Изменяйте размер шрифта по желанию */
+    color: rgba(63, 75, 127, 0.1);
+    font-family: "Ma(ka)renkov", sans-serif;
+    letter-spacing: 0.26em;
+    -webkit-text-stroke-width: 11px; /* Толщина контура */
+    -webkit-text-stroke-color: rgba(63, 75, 127, 0.1); /* Цвет контура */
+    text-align: center;
+    z-index: -1; /* Помещаем текст за изображение */
+}

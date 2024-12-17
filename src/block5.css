@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Ma(ka)renkov'; /* Имя семейства шрифтов */
+    src: url('fonts/Font Ma(ka)renkov.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+@font-face {
+    font-family: 'TT Travels Regular'; /* Имя семейства шрифтов */
+    src: url('fonts/TT-Travels.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'TT Travels Light'; /* Имя семейства шрифтов */
+    src: url('fonts/TTTravels-Light.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'Nuqun'; /* Имя семейства шрифтов */
+    src: url('fonts/Nuqun-Regular.otf') format('opentype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+.endl{
+    margin-top: 80px ;
+    height: 610px;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 50px;
+    color: #3F4B7F;
+    text-align: center;
+    padding: 25px 0;
+    font-family: "Nuqun", sans-serif;
+    letter-spacing: 0.28em;
+    margin-top: -20px;
+    -webkit-text-stroke-width: 1px; /* Толщина контура */
+    -webkit-text-stroke-color: #3F4B7F; /* Цвет контура */
+}
+
+.tg2 {
+    position: relative;
+    width: 660px;
+    height: 375px;
+    left: 20px;
+    bottom: 250px;
+    border-radius: 10px;
+}
+
+.vk2 {
+    position: relative;
+    width: 660px;
+    height: 375px;
+    left: 20px;
+    bottom: 250px;
+    border-radius: 10px;
+}
+
+.Star2 {
+    position: relative;
+    width: 153px;
+    height: 153px;
+    left: 644px;
+    bottom: 630px;
+    border-radius: 10px;
+}
+
+.tgbtn {
+    position: absolute;
+    width: 346px;
+    height: 83px;
+    background-color: #FFFCF7;
+    border-radius: 20px; /* Закругленные углы */
+    margin-left: 130px;
+    margin-top: -530px;
+    transform-origin: 100% 100%; /* Устанавливаем точку начала трансформации */
+    transition: transform 0.3s ease-in-out;
+    font-family: "TT Travels Regular", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    line-height: 2.3;
+    text-decoration: none;
+}
+
+.tgbtn:hover {
+    transform: scale(1.05); /* Увеличение размера при наведении */
+}
+
+.vkbtn {
+    position: absolute;
+    width: 346px;
+    height: 83px;
+    background-color: #FFFCF7;
+    border-radius: 20px; /* Закругленные углы */
+    margin-left: 655px;
+    margin-top: -530px;
+    transform-origin: 0% 100%; /* Устанавливаем точку начала трансформации */
+    transition: transform 0.3s ease-in-out;
+    font-family: "TT Travels Regular", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    line-height: 2.3;
+    text-decoration: none;
+}
+
+.vkbtn:hover {
+    transform: scale(1.05); /* Увеличение размера при наведении */
+}
+
+.grade {
+    content: '';
+    display: block;
+    background-attachment: fixed;
+    margin-bottom: 0;
+    width: 100%;
+    height: 400px; /* Высота градиента */
+    background: linear-gradient(to top, #E3B7AA, #FFFCF7);
+    z-index: -2;
+}
+
+.end{
+    z-index: 1;
+    margin-bottom: -240px;
+}
+.end h1 {
+    font-family: "Ma(ka)renkov", sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.25em;
+    color: #3F4B7F;
+    text-align: center;
+    margin-left: 6.5%; /* Значение увеличено для заметного смещения */
+    margin-top: 100px; /* Значение увеличено для заметного смещения */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #3F4B7F;
+    z-index: 3;
+}
+.end h2{
+    font-family: "Ma(ka)renkov", sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.25em;
+    color: #3F4B7F;
+    text-align: center;
+    margin-top: -3%;
+    margin-left: 6.5%;
+    z-index: 3;
+}

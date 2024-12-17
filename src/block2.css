@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Ma(ka)renkov'; /* Имя семейства шрифтов */
+    src: url('fonts/Font Ma(ka)renkov.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'TT Travels Regular'; /* Имя семейства шрифтов */
+    src: url('fonts/TT-Travels.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'TT Travels Light'; /* Имя семейства шрифтов */
+    src: url('fonts/TTTravels-Light.ttf') format('truetype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+@font-face {
+    font-family: 'Nuqun'; /* Имя семейства шрифтов */
+    src: url('fonts/Nuqun-Regular.otf') format('opentype');/* Путь и формат для TTF */
+    font-weight: normal; /* Толщина шрифта (normal, bold, ...) */
+    font-style: normal;  /* Стиль шрифта (normal, italic) */
+    font-display: swap;  /* Управление отображением шрифта при загрузке */
+}
+
+.aboutme {
+    margin-top: 180px;
+    display: flex;
+    align-items: center; /* Выравнивание элементов по вертикальной оси */
+    justify-content: space-between; /* Размещение элементов с равными промежутками */
+    gap: 3px; /* Промежуток между элементами */
+}
+
+main img {
+    height: 660px;
+    width: 670px;
+    margin-left: 5%;
+    margin-top: 300px;
+}
+.aboutme {
+    display: relative; /* Стандартное поведение блочных элементов */
+}
+.aboutme h4 {
+    font-family: 'Ma(ka)renkov', sans-serif;
+    font-size: 48px;
+    color: #945C65;
+    letter-spacing: 0.3em;
+    margin-bottom: 20px; /* Небольшое пространство между заголовком и текстом */
+    position: absolute; /* Зафиксируем */
+    top: 800px; /* Верхний край заголовка */
+    left: 65%; /* Левый край заголовка */
+}
+
+.aboutme p {
+    font-family: 'TT Travels Regular', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+    color: black;
+    position: absolute; /* Зафиксируем заголовок на месте */
+    top: 940px; /* Верхний край заголовка */
+    left: 55%; /* Левый край заголовка */
+    white-space: pre-wrap; /* Чтобы сохранить пробелы и переносы строки */
+    width: 600px;
+    margin-bottom: 20px; /* Отступ между абзацами */
+}
